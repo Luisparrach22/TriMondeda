@@ -1,0 +1,126 @@
+/* General */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.main-container {
+  padding: 20px;
+}
+
+.saldo-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.saldo {
+  background-color: #32cd32;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.historial {
+  background-color: #ddd;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* Botón flotante */
+.add-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #32cd32;
+  color: white;
+  border: none;
+  width: 60px;
+  height: 60px;
+  font-size: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.add-btn:hover {
+  background-color: #28a428;
+}
+
+/* Modal */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none; /* Oculto por defecto */
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  text-align: left;
+}
+
+textarea,
+select,input,
+button {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-btn {
+  background-color: #32cd32;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #28a428;
+}
+
+.close-btn {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.close-btn:hover {
+  background-color: #e04444;
+}
+
+.historial-item {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+

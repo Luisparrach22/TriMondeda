@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.luisParra.mi_app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>TriMoneda</name>
+    <description>es tu billetera digital para un mundo globalizado. Gestiona fácilmente tus gastos en dólares, pesos y bolívares, crea presupuestos personalizados y visualiza tus finanzas de forma clara e intuitiva.</description>
+    <author email="parra.chaconluis006@gmail.com" href="https://github.com/Luisparrach22/TriMoneda.git">
+        Luis Parra
+    </author>
+    <platform name="android">
+        <icon src="www/img/billete-ldpi.png" density="ldpi"/>
+        <icon src="www/img/mdpi.png" density="mdpi" />
+        <icon src="www/img/billete-xhdpi.png" density="xhdpi" />
+        <icon src="www/img/billete-xxhdpi.png" density="xxhdpi" />
+        <icon src="www/img/billete-xxxhdpi.png" density="xxxhdpi" />
+        <preference name="AndroidWindowSplashScreenAnimatedIcon" value="www/img/logo-billete.png"/>
+        <preference name="AndroidWindowSplashScreenBackground" value="#48a259" />
+
+        <preference name="AndroidPersistentFileLocation" value="Compatibility" />
+        <preference name="AndroidInsecureFileModeEnabled" value="false" />
+    </platform>
+
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+</widget>
